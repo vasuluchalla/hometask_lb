@@ -1,0 +1,13 @@
+default:
+  outputs:
+    dev:
+      account: oh95089.eu-central-1
+      database: LB
+      password: ""
+      role: ACCOUNTADMIN
+      schema: stage
+      threads: 1
+      type: snowflake
+      user: SCHALLADBT
+      warehouse: COMPUTE_WH
+  target: dev

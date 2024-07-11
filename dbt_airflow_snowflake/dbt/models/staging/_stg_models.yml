@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: stg_prices       
+  - name: stg_contract
+  - name: stg_products

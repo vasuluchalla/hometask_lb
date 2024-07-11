@@ -1,0 +1,19 @@
+
+
+with source as (
+    select * from lb.raw.products
+),
+incremental as (
+    select
+        id,
+        productcode,
+        productname,
+        energy,
+        consumptiontype,
+        deleted,
+        modificationdate
+    from source
+    
+)
+
+select * from incremental

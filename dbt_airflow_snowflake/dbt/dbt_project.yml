@@ -1,0 +1,17 @@
+name: 'snowflake_airflow_dbt'
+version: '1.0'
+profile: 'default'
+config-version: 2
+
+vars:
+  surrogate_key_treat_nulls_as_empty_strings: False
+
+# Define the target schemas for different environments
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+models:
+  snowflake_airflow_dbt:
+    staging:
+      materialized: view

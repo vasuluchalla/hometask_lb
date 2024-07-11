@@ -1,0 +1,8 @@
+sources:
+  - name: source
+    schema: raw
+    database: lb
+    tables:
+      - name: contract
+      - name: prices
+      - name: products

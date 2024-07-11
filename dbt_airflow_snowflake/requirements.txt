@@ -1,0 +1,8 @@
+dbt
+dbt-snowflake
+astronomer-cosmos
+apache-airflow-providers-snowflake
+apache-airflow[amazon]
+pandas
+boto3
+
